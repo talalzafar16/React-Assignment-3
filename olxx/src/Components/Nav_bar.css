@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.header{
+    background-color:rgb(249, 247, 247);
+    height:122px; 
+}
+.nav li{
+    display:inline;
+}
+.item{
+    margin-left:22px;
+    vertical-align: -16px;
+}
+.find{ 
+    width: 160px;
+    height: 40px;
+    border:2px solid black;
+    
+}
+#hi{
+    width:430px;
+    height:5px;
+    border:2px solid black;
+}
+#search{
+    vertical-align:-12px;
+}
+.abc{ 
+    margin-left:20px;
+    vertical-align: -20px;
+    
+}
+#but{
+    background-color:rgb(3, 112, 52);
+    color:white;
+    border: 2px solid black;
+    height:42px;
+    vertical-align: -14px;
+    margin-left:-10px;
+} 
+#login{
+    border: 2px solid green;
+    color:black;
+    margin-left:116px;
+    font-size:16px;
+    border-radius: 24px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}    
+#login:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:lightblue;
+    color:black;
+
+}
+#type{
+    margin-left:20px;
+    margin-top:4px;
+    font-family: Georgia, Times, "Times New Roman", serif ;
+}

@@ -1,0 +1,16 @@
+.main{
+        margin-left:90px;
+    margin-top:22px;
+    width:1164px;
+    height:220px;
+    background-image: url('https://images.olx.com.pk/thumbnails/290147312-800x600.webp');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    animation: slider 10s infinite linear;
+}
+@keyframes slider{
+    0%{background-image:url('https://images.olx.com.pk/thumbnails/290147312-800x600.webp')}
+    25%{background-image:url("https://blog.olx.com.pk/wp-content/uploads/2021/11/Car-Inspection-with-OLX-Motors.jpg")}
+    50%{background-image:url("https://www.dignited.com/wp-content/uploads/2018/01/olx_logo.jpg")}
+    75%{background-image:url("https://d2liqplnt17rh6.cloudfront.net/coverImages/olxcover_7eb25863-0853-4db0-a735-130377b58e56-111.jpeg")} 
+}
